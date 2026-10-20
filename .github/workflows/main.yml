@@ -22,5 +22,5 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
-      - name: Run requirement.txt
-        run: python requirement.txt
+      - name: Run requirements.txt
+        run: python extract.py
